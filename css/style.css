@@ -21,7 +21,6 @@ menu {
 
 .main-header.debug {
     background-color: red;
-    min-height: 500px;
 }
 
 .main-header > .container.debug {
@@ -37,6 +36,7 @@ menu {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
 }
 
 .header-col.debug {
