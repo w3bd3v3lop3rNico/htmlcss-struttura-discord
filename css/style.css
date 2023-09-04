@@ -19,14 +19,8 @@ menu {
 
 /* Debugs */
 
-.main-header.debug {
+.main-header {
     background-color: red;
-}
-
-.main-header > .container.debug {
-    min-height: 50px;
-    border: dotted black 5px;
-    padding: 10px;
 }
 
 .header-row.debug {
