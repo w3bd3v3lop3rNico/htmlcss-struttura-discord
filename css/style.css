@@ -21,7 +21,7 @@ menu {
 
 .main-header.debug {
     background-color: red;
-    min-height: 100px;
+    min-height: 500px;
 }
 
 .main-header > .container.debug {
@@ -29,4 +29,22 @@ menu {
     border: dotted black 5px;
     padding: 10px;
 }
+
+.header-row.debug {
+    min-height: 200px;
+    background-color: aqua;
+    border: solid black 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-col.debug {
+    min-height: 100px;
+    background-color: yellow;
+    border: dashed black 5px;
+
+}
+
+
  
