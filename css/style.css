@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-ul
-ol
+ul,
+ol,
 menu {
     list-style: none;
     padding: 0;
@@ -15,5 +15,18 @@ menu {
 .container{
     max-width: 800px;
     margin: 0 auto;
-
 }
+
+/* Debugs */
+
+.main-header.debug {
+    background-color: red;
+    min-height: 100px;
+}
+
+.main-header > .container.debug {
+    min-height: 50px;
+    border: dotted black 5px;
+    padding: 10px;
+}
+ 
