@@ -47,10 +47,13 @@ menu {
     padding: 10px 50px ;
 
 }
-.main-odd {
+.hero.debug {
+background-color: lightcoral;
+}
+.section-odd.debug {
 background-color: blue;
 }
-.main-even{
+.section-even.debug {
     background-color: green;
 }
 
