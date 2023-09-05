@@ -17,9 +17,7 @@ menu {
     margin: 0 auto;
 }
 
-.row {
-    padding: 10px ;
-}
+
 
 /* header */
 .header-row {
@@ -34,6 +32,22 @@ menu {
 .header-row ul {
     flex-grow: 1;
 }
+
+/* MAIN */
+
+.container-sm {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.hero {
+    padding: 10px;
+}
+
+section[class^=section] {
+    padding: 10px;
+
+}
+
 /* Debugs */
 
 .main-header.debug {
@@ -50,13 +64,6 @@ menu {
     
 }
 
-
-
-
-.row.padding-10-50 {
-    padding: 10px 50px ;
-
-}
 .hero.debug {
 background-color: lightcoral;
 }
@@ -67,7 +74,7 @@ background-color: blue;
     background-color: green;
 }
 
-.col.debug {
+.debug[class^=col] {
     background-color: yellow;
     border: dashed black 5px;
     text-align: center;
