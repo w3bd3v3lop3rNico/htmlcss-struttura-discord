@@ -20,6 +20,9 @@ menu {
 
 
 /* header */
+.main-header {
+padding: 10px;
+}
 .header-row {
     display: flex;
     justify-content: space-between;
@@ -48,15 +51,16 @@ section[class^=section] {
 
 }
 
+
 /* Debugs */
 
 .main-header.debug {
     background-color: red;
+
 }
 
-.header-row.debug {   
-    padding: 10px;
-}
+
+
 
 .header-col.debug {
     background-color: yellow;
