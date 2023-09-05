@@ -40,10 +40,10 @@ menu {
     flex-grow: 1;
 }
 
-.row.debug {
+.row {
     padding: 10px ;
 }
-.section, .padding-10-50 {
+.row.padding-10-50 {
     padding: 10px 50px ;
 
 }
