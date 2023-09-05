@@ -16,11 +16,24 @@ menu {
     max-width: 800px;
     margin: 0 auto;
 }
+
+.row {
+    padding: 10px ;
+}
+
+/* header */
 .header-row {
     display: flex;
     justify-content: space-between;
 }
+.header-col {
+    text-align: center;
+    display: flex;
+}
 
+.header-row ul {
+    flex-grow: 1;
+}
 /* Debugs */
 
 .main-header.debug {
@@ -34,17 +47,12 @@ menu {
 .header-col.debug {
     background-color: yellow;
     border: dashed black 5px;
-    text-align: center;
-    display: flex;
+    
 }
 
-.header-row ul {
-    flex-grow: 1;
-}
 
-.row {
-    padding: 10px ;
-}
+
+
 .row.padding-10-50 {
     padding: 10px 50px ;
 
