@@ -40,4 +40,19 @@ menu {
     flex-grow: 1;
 }
 
- 
+.row.debug {
+    padding: 10px 50px ;
+}
+.main-odd {
+background-color: blue;
+}
+.main-even{
+    background-color: green;
+}
+
+.col.debug {
+    background-color: yellow;
+    border: dashed black 5px;
+    text-align: center;
+    min-height: 200px;
+}
