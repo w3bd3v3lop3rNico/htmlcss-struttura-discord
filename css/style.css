@@ -16,16 +16,18 @@ menu {
     max-width: 800px;
     margin: 0 auto;
 }
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Debugs */
 
-.main-header {
+.main-header.debug {
     background-color: red;
 }
 
-.header-row.debug {
-    display: flex;
-    justify-content: space-between;
+.header-row.debug {   
     padding: 10px;
 }
 
