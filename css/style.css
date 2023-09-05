@@ -36,5 +36,7 @@ menu {
 
 }
 
-
+.header-row:nth-child(2) {
+    flex-grow: 1;
+}
  
