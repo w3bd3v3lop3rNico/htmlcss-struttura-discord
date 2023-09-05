@@ -51,6 +51,23 @@ section[class^=section] {
 
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+.col-8 {
+    flex-basis: calc((100% * 8) /12);
+}
+
+.col-4 {
+    flex-basis: calc((100% * 4) /12);
+}
 
 /* Debugs */
 
@@ -58,9 +75,6 @@ section[class^=section] {
     background-color: red;
 
 }
-
-
-
 
 .header-col.debug {
     background-color: yellow;
@@ -71,6 +85,7 @@ section[class^=section] {
 .hero.debug {
 background-color: lightcoral;
 }
+
 .section-odd.debug {
 background-color: blue;
 }
